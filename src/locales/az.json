@@ -1,0 +1,13 @@
+{
+  "navbar": {
+      "home": "Ana səhifə",
+      "projects": "Layihələr",
+      "services": "Xidmətlər",
+      "contacts": "Əlaqə"
+  },
+  "about": {
+    "boldText": "HOVERS GROUP Məhdud Məsuliyyətli Cəmiyyəti (MMC)",
+    "regularText": "1 iyul 2011-ci ildə İlqar Zeynalov tərəfindən təsis edilmişdir. Gənc və sürətlə inkişaf edən şirkət qısa zamanda Azərbaycanın müxtəlif yerlərində fəaliyyətini genişləndirdi." 
+  }
+  
+}
