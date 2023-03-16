@@ -3,11 +3,29 @@
       "home": "Ana səhifə",
       "projects": "Layihələr",
       "services": "Xidmətlər",
+      "company": "Haqqımızda",
+      "clients": "Müştərilər",
       "contacts": "Əlaqə"
   },
   "about": {
+    "about-us": "Biz kimik?",
     "boldText": "HOVERS GROUP Məhdud Məsuliyyətli Cəmiyyəti (MMC)",
-    "regularText": "1 iyul 2011-ci ildə İlqar Zeynalov tərəfindən təsis edilmişdir. Gənc və sürətlə inkişaf edən şirkət qısa zamanda Azərbaycanın müxtəlif yerlərində fəaliyyətini genişləndirdi." 
+    "regularText": "1 iyul 2011-ci ildə İlqar Zeynalov tərəfindən təsis edilmişdir. Gənc və sürətlə inkişaf edən şirkət Azərbaycanın müxtəlif yerlərində fəaliyyətini genişləndirdi.",
+    "read-more": "Daha ətraflı"
+  },
+  "services": {
+    "heading": "Xidmətlər",
+    "title-1": "Tikinti və Bərpa işləri",
+    "perex-1": "Düzgün tikinti prinsipinə əsaslanan əvəzolunmaz heyətimiz üçün yüksək keyfiyyət və təhlükəsizlik ön planda durur. Tikinti və bərpa işləri müasir tikinti texnologiyalarından və avadanlıqlarından istifadə edən yüksək ixtisaslı mütəxəssislərimiz tərəfindən həyata keçirilir.",
+    "title-2": "Akustik Konsaltinq",
+    "perex-2": "Hovers Group-un təşkilatçılığı ilə Azərbaycan Respublikası Fövqəladə Hallar Nazirliyi, Tikintidə Təhlükəyə Nəzarət Dövlət Agentliyi, S.Ə.Dadaşov adına Elmi-Tədqiqat və Layihə-Konstruktor İnşaat Materialları İnstitutu akustik səs səviyəsinin müayinəsini təşkil edir.",
+    "title-3": "Memarlıq və Dizayn",
+    "perex-3": "Yeni və maraqlı üsullardan istifadə edərək köhnə proyektlərinizi canlandırır və xəyallarınızın evinə çeviririk. İstənilən proyekt təcrübəli heyətimiz tərəfindən fərdi istəklərə uyğun dəyişdirilərək dizayn edilir.",
+    "title-4": "Nəqliyyat",
+    "perex-4": "Hovers Group kifayət sayda nəqliyyat vasitələrinə və professional sürücü potensialına malikdir və bunun sayəsində ölkə daxilində 80 ton ağırlığında böyük yüklərin daşınmasını həyata keçirə bilir."
+  },
+  "clients": {
+    "heading": "Müştərilərimiz"
   }
   
 }

@@ -1,6 +1,6 @@
 <template>
   <nav
-    :class = "[ isHome ? 'navbar-home absolute w-full z-20 py-2' : 
+    :class = "[ isHome ? 'absolute w-full z-20 py-3' : 
     'bg-white bg-opacity-100 absolute w-full z-20 py-2 shadow-md' ]"
   >
   <div class="max-w-[1240px] mx-auto flex items-center justify-between">
@@ -10,9 +10,11 @@
     </div>
     <ul :class="[ 'flex flex-row items-center gap-10 text-sm font-regular tracking-tight', isHome ? 'text-white' : 'text-hovers-black' ]">
      <li> <a href="/">{{ $t('navbar.home') }}</a></li>
-      <li><a href="/projects">{{ $t('navbar.projects') }}</a></li>
-      <li><a href="/services">{{ $t('navbar.services') }}</a></li>
-      <li><a href="/contacts">{{ $t('navbar.contacts') }}</a></li>
+      <li><router-link to="/projects">{{ $t('navbar.projects') }}</router-link></li>
+      <li><a href="/#services">{{ $t('navbar.services') }}</a></li>
+      <li><router-link to="/company">{{ $t('navbar.company') }}</router-link></li>
+      <li><a href="/#clients">{{ $t('navbar.clients') }}</a></li>
+      <li><router-link to="/contacts">{{ $t('navbar.contacts') }}</router-link></li>
 
       <li>
         <ul class="border-x px-3 flex flex-row gap-3">
@@ -58,10 +60,4 @@ export default {
 }
 </script>
 
-<style lang="css">
-.navbar-home {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,0.03) 25%, rgba(2,0,36,0.03) 100%);
-}
-</style>
 

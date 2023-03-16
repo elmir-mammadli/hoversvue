@@ -3,7 +3,7 @@
 
     <div id="indicators-carousel" class="relative z-10" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 sm:h-[30rem] overflow-hidden lg:h-[50rem]">
+    <div class="relative h-56 sm:h-[30rem] overflow-hidden lg:h-[40rem]">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
             <img src="/images/projects/azfar/azfar_2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-0" alt="...">
@@ -11,6 +11,7 @@
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img v-for="carousel in carousels" :src="carousel" :key="carousel">
             <img src="/images/projects/azfar/azfar_1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             <div class="absolute inset-0 bg-black opacity-40"></div>
         </div>
