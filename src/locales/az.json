@@ -3,15 +3,23 @@
       "home": "Ana səhifə",
       "projects": "Layihələr",
       "services": "Xidmətlər",
-      "company": "Haqqımızda",
+      "about": "Haqqımızda",
       "clients": "Müştərilər",
       "contacts": "Əlaqə"
   },
+  "footer": {
+    "pp": "Məxfilik siyasəti",
+    "licensing": "Lisenziyalar"
+  },
   "about": {
-    "about-us": "Biz kimik?",
-    "boldText": "HOVERS GROUP Məhdud Məsuliyyətli Cəmiyyəti (MMC)",
+    "about-us": "Haqqımızda",
+    "about-in": "Biz kimik?",
+    "bold-text": "HOVERS GROUP Məhdud Məsuliyyətli Cəmiyyəti (MMC)",
     "regularText": "1 iyul 2011-ci ildə İlqar Zeynalov tərəfindən təsis edilmişdir. Gənc və sürətlə inkişaf edən şirkət Azərbaycanın müxtəlif yerlərində fəaliyyətini genişləndirdi.",
-    "read-more": "Daha ətraflı"
+    "read-more": "Daha ətraflı",
+    "perex-1": "1 iyul 2011-ci ildə İlqar Zeynalov tərəfindən təsis edilmişdir. Gənc və sürətlə inkişaf edən şirkət bərpa və tikinti, eləcə də dizayn layihələri xidmətlərinin həyata keçirilməsi ilə məşğul olur. Bir çox müxtəlif miqyaslı və mürəkkəb layihələrin arxasında Hovers Group adı vardır. Tikinti və bərpa işləri müasir tikinti texnologiyalarından və avadanlıqlarından istifadə edən yüksək ixtisaslı mütəxəssislər tərəfindən aparılır. Şirkət həmçinin Bakıda, Hovers Beton zavodunda hər növ markalı beton istehsalını, Metal zavodunda isə istənilən formalı metal tir istehsalını həyata keçirir və bu tikinti materiallarının lazımi istiqamətlərə çatdırılmasını təmin edir.",
+    "perex-2": "Hovers Group kifayət sayda nəqliyyat vasitələrinə və professional sürücü potensialına malikdir və bunun sayəsində ölkə daxilində 80 ton ağırlığında böyük yüklərin daşınmasını həyata keçirə bilir. Hovers Group şirkətlər qrupu olub müxtəlif biznes sahələrinə yönəlmişdir və Bakı Enerji Tikinti ASC, Hovers İşıqlandırma MMC və Hovers Tikinti MMC şirkətlərindən ibarətdir. Bakı Enerji Tikinti tikinti lisenziyasına sahib olub tikinti xidmətlərini həyata keçirir. Hover Tikinti ilə bir sıra proyektlərdə ortaqlıq etmişdir. Hovers İşıqlandırma əməkdaşlıq etdiyimiz şirkətlərdən biri olan Philips-dən təmin olunan işıqlandırma cihazlarının quraşdırılması işləri ilə məşğul olur. Təhlükəsizlik. Keyfiyyət. Vaxt. Qiymət. Bunlar Hovers Group MMC-in əsas dəyərləridir",
+    "perex-3": "Hovers Group bir çox Beynəlxalq şirkətlərlə əməkdaşlıq edir. Bu şirkətlər arasında PHILIPS, LIGHTFORCE və PILOSIO-nun Azərbaycandakı rəsmi nümayəndəsi kimi fəaliyyət göstərir. Hovers Group xeyriyyə tədbirlərində iştirak etməkdən və bir Azərbaycan şirkəti kimi öz vəzifəsini yerinə yetirərək ölkəmizdə keçirilən beynəlxalq tədbirlərə dəstək olmaqdan qürur duyur. Hovers Group 6-8 fevral, 2015-ci ildə Bakıda, Milli Gimnastika Arenasında keçirilən “2015 NN TABLE TENNIS CLUB ITTF- EUROPE TOP- 16 CUP” yarışlarına mütəmadi olaraq sponsorluq etmişdir. Bundan sonra da ölkəmizdə keçiriləcək tennis yarışlarına maliyyə dəstəyi göstərməyi öz üzərinə götürmüşdür. Ölkəmizdə və Avropa ölkələrində idmanın inkişafına dəstək olan Hovers Group yalnız şirkətimizi deyil, Azərbaycanımızı da Beynəlxalq Arenada tanıtmaq məqsədi güdür. Onun sponsorluğunu öz üzərinə götürdüyü Almaniyanın “United Futsal Berlin e.V” komandası üzərində “Land of Fire Azerbaijan” yazılan forma geyinərək yarışlara çıxır."
   },
   "services": {
     "heading": "Xidmətlər",

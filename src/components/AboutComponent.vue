@@ -4,11 +4,11 @@
     <div class="border-r border-x-2"></div>
     <p class="max-w-xl text-[#777777]">
         <span class="font-semibold">
-          {{ $t('about.boldText') }}
+          {{ $t('about.bold-text') }}
     </span>
     {{ $t('about.regularText') }}
   <button class="bg-red-600 rounded-[30px] mt-2 px-3 py-1">
-    <a href="/company" class="text-white text-md font-light">{{ $t('about.read-more') }}</a>
+    <a href="/about" class="text-white text-md font-light">{{ $t('about.read-more') }}</a>
   </button> 
   </p>
   </div>

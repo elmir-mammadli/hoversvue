@@ -1,4 +1,5 @@
 <script setup>
+// Here was Murad
 import index from './index.vue';
 
 </script>
@@ -7,3 +8,4 @@ import index from './index.vue';
 </template>
 <style>
 </style>
+

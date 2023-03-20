@@ -7,16 +7,16 @@
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                    <a href="/about" class="mr-4 hover:underline md:mr-6 ">{{ $t('navbar.about') }}</a>
                 </li>
                 <li>
-                    <a href="https://www.freeprivacypolicy.com/live/f6e683da-3b15-4297-9ee6-81c2dedf1347" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    <a :href="isEn ? '/public/ppen.pdf' : '/public/ppaz.pdf'" class="mr-4 hover:underline md:mr-6">{{ $t('footer.pp') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">{{ $t('footer.licensing') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Contact</a>
+                    <a href="#" class="hover:underline">{{ $t('navbar.contacts') }}</a>
                 </li>
             </ul>
         </div>
@@ -28,8 +28,16 @@
 
 </template>
 
-<script setup>
+<script>
+import i18n from '../i18n';
 
+export default {
+    computed: {
+        isEn() {
+            return i18n.global.locale === 'en';
+        }
+    }
+}
 </script>
 
 <style>

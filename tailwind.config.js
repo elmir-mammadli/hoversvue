@@ -9,8 +9,13 @@ module.exports = {
     extend: {
       colors: {
         hovers: {
-          black: '#212121'
+          black: '#212121',
+          gray: '#777777',
+          logo: '#233683'
         }
+      },
+      backgroundImage: {
+        'aboutcover': "url('./public/images/abouthero.webp')",
       }
     },
   },

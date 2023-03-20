@@ -1,18 +1,18 @@
 <template>
   <nav
-    :class = "[ isHome ? 'absolute w-full z-20 py-3' : 
+    :class = "[ isNavRouter ? 'absolute w-full z-20 py-3' : 
     'bg-white bg-opacity-100 absolute w-full z-20 py-2 shadow-md' ]"
   >
   <div class="max-w-[1240px] mx-auto flex items-center justify-between">
     <div class="mr-[1rem]">
-      <a href="/"><img v-if="isHome" src="./icons/2h.png" class="transition-all h-[65px]"  alt="">
+      <a href="/"><img v-if="isNavRouter" src="./icons/2h.png" class="transition-all h-[65px]"  alt="">
       <img v-else src="./icons/1h.png" class="transition-all h-[65px]" alt=""></a>
     </div>
-    <ul :class="[ 'flex flex-row items-center gap-10 text-sm font-regular tracking-tight', isHome ? 'text-white' : 'text-hovers-black' ]">
+    <ul :class="[ 'flex flex-row items-center gap-10 text-sm font-regular tracking-tight', isNavRouter ? 'text-white' : 'text-hovers-black' ]">
      <li> <a href="/">{{ $t('navbar.home') }}</a></li>
       <li><router-link to="/projects">{{ $t('navbar.projects') }}</router-link></li>
       <li><a href="/#services">{{ $t('navbar.services') }}</a></li>
-      <li><router-link to="/company">{{ $t('navbar.company') }}</router-link></li>
+      <li><a href="/about">{{ $t('navbar.about') }}</a></li>
       <li><a href="/#clients">{{ $t('navbar.clients') }}</a></li>
       <li><router-link to="/contacts">{{ $t('navbar.contacts') }}</router-link></li>
 
@@ -40,8 +40,7 @@
 <script>
 import { library} from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { def } from '@vue/shared'
-import { computed } from 'vue'
+
 import i18n from '../i18n'
 library.add(faTwitter, faFacebook, faInstagram, faLinkedin)
 
@@ -50,11 +49,14 @@ export default {
   methods: {
     changeLang(lang) {
       i18n.global.locale = lang
+      localStorage.setItem('language', lang)
     }
   },
   computed: {
-    isHome() {
-    return this.$route.path === '/'
+    isNavRouter() {
+      const isAbout = this.$route.path === '/about'
+      const homePath = this.$route.path === '/'
+    return isAbout || homePath
   }
 }
 }
