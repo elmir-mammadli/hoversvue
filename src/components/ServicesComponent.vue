@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#f7f7f7] py-[60px]" id="services">
+  <div class="bg-white py-[60px] max-w-9xl rounded-lg mx-auto" id="services">
     <div class="mx-auto max-w-7xl">
     <h1 class="text-[28px] font-bold tracking-tight pb-[60px]">{{ $t('services.heading') }}</h1>
     <div class="grid grid-cols-2 gap-[40px]">

@@ -1,5 +1,5 @@
 <template>
-   <footer class="bg-white rounded-lg shadow-xl dark:bg-gray-900 m-4">
+   <footer class="rounded-lg shadow-2xl bg-white 0 m-4">
     <div class="w-full container mx-auto p-4 md:px-6 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
@@ -20,7 +20,7 @@
                 </li>
             </ul>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© <a href="https://flowbite.com/" class="hover:underline">Hovers Group LLC</a>. All Rights Reserved.</span>
     </div>
 </footer>

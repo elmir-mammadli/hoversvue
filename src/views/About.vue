@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-aboutcover w-[full] h-[300px] bg-no-repeat bg-contain 2xl:bg-cover"></div>
-    <div class="max-w-6xl mx-auto flex flex-col items-center rounded-xl bg-[#f7f7f7] py-10 mt-10">
+
+    <div class="max-w-6xl shadow-xl mx-auto flex flex-col items-center rounded-xl bg-white py-10 my-20">
         <h1 class="text-center font-bold tracking-tighter text-5xl ">{{ $t(isEn ? 'about.about-us': 'about.about-in') }}</h1>
         <div class="flex gap-[2rem] mt-[60px]">
         <p :class="isEn ? 'tracking-tight' : 'tracking-normal'" class="max-w-lg 

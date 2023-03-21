@@ -3,6 +3,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Projects from './views/Projects.vue'
 import NotFound from './views/NotFound.vue'
+import Contacts from './views/Contacts.vue'
 const routes = [
     {
         path: '/',
@@ -15,6 +16,10 @@ const routes = [
     {
         path: '/projects',
         component: Projects
+    },
+    {
+        path: '/contacts',
+        component: Contacts
     },
     {
         path: '/:pathMatch(.*)*',

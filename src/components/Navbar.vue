@@ -1,14 +1,12 @@
 <template>
   <nav
-    :class = "[ isNavRouter ? 'absolute w-full z-20 py-3' : 
-    'bg-white bg-opacity-100 absolute w-full z-20 py-2 shadow-md' ]"
+    class="absolute w-full z-20 py-3"
   >
   <div class="max-w-[1240px] mx-auto flex items-center justify-between">
     <div class="mr-[1rem]">
-      <a href="/"><img v-if="isNavRouter" src="./icons/2h.png" class="transition-all h-[65px]"  alt="">
-      <img v-else src="./icons/1h.png" class="transition-all h-[65px]" alt=""></a>
+      <a href="/"><img src="./icons/2h.png" class="transition-all h-[65px]" alt="hovers_logo"></a>
     </div>
-    <ul :class="[ 'flex flex-row items-center gap-10 text-sm font-regular tracking-tight', isNavRouter ? 'text-white' : 'text-hovers-black' ]">
+    <ul class="flex flex-row items-center gap-10 text-sm font-regular tracking-tight text-white">
      <li> <a href="/">{{ $t('navbar.home') }}</a></li>
       <li><router-link to="/projects">{{ $t('navbar.projects') }}</router-link></li>
       <li><a href="/#services">{{ $t('navbar.services') }}</a></li>
@@ -31,34 +29,27 @@
         </ul>
       </li>
     </ul>
-
-    
   </div>
   </nav>
+  <NavRouter />
 </template>
 
 <script>
-import { library} from '@fortawesome/fontawesome-svg-core'
+import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
 import i18n from '../i18n'
+import NavRouter from './NavRouter.vue'
 library.add(faTwitter, faFacebook, faInstagram, faLinkedin)
 
 export default {
+  components: { NavRouter },
   name: 'Navbar',
   methods: {
     changeLang(lang) {
       i18n.global.locale = lang
       localStorage.setItem('language', lang)
     }
-  },
-  computed: {
-    isNavRouter() {
-      const isAbout = this.$route.path === '/about'
-      const homePath = this.$route.path === '/'
-    return isAbout || homePath
   }
-}
 }
 </script>
 

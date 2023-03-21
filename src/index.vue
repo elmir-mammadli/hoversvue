@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="bg-[#f7f7f7]">
   <header>
     <Navbar />
   </header>

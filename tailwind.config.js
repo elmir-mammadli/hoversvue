@@ -16,10 +16,15 @@ module.exports = {
       },
       backgroundImage: {
         'aboutcover': "url('./public/images/abouthero.webp')",
+      },
+      maxWidth: {
+        '8xl': '88rem',
+        '9xl': '96rem'
       }
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('@headlessui/vue')
 ],
 }
