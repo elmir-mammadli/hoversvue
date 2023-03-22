@@ -35,11 +35,8 @@
 </template>
 
 <script>
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import i18n from '../i18n'
 import NavRouter from './NavRouter.vue'
-library.add(faTwitter, faFacebook, faInstagram, faLinkedin)
 
 export default {
   components: { NavRouter },

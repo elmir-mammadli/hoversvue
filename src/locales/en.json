@@ -39,7 +39,8 @@
         "hero-header": "PROJECTS"
       },
       "contacts": {
-        "hero-header": "CONTACTS"
+        "hero-header": "CONTACTS",
+        "location": "73 Abbas Sahhat, Baku, Azerbaijan"
       },
       "contact-form": {
         "heading": "Contact Us",

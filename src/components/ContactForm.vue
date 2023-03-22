@@ -13,7 +13,7 @@
   ```
 -->
 <template>
-    <div class="max-w-md shadow-2xl rounded-xl isolate bg-white pt-12 pb-12 px-6 lg:px-8">
+    <div class="max-w-xl shadow-2xl rounded-xl isolate bg-white pt-12 pb-12 px-6 lg:px-8">
       <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       </div>
       <div class="mx-auto max-w-2xl text-center">
