@@ -41,6 +41,10 @@
   },
   "contacts": {
     "hero-header": "ƏLAQƏ",
+    "subheader": "Bizimlə əlaqə",
+    "phone": "Bizə zəng edin",
+    "email": "Bizə yazın",
+    "address": "Ünvan",
     "location": "Abbas Səhhət küçəsi 73"
   },
   "contact-form": {

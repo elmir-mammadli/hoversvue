@@ -1,0 +1,19 @@
+[
+    {
+       "id": 1,
+       "name": "John",
+       "short_descr": "Its a short description",
+       "long_descr": "Its a short description",
+       "client": "Client 1",
+       "contractor": "Contractor 1",
+       "start_date": "2018-01-01",
+       "end_date": "2018-01-05",
+       "card_image": "https://www.w3schools.com/w3css/img_lights.jpg",
+       "images": [
+              "https://www.w3schools.com/w3css/img_lights.jpg",
+              "https://www.w3schools.com/w3css/img_lights.jpg",
+              "https://www.w3schools.com/w3css/img_lights.jpg"
+         ],
+       ]
+    },
+]

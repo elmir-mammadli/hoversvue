@@ -16,7 +16,7 @@
                     <a href="#" class="mr-4 hover:underline md:mr-6">{{ $t('footer.licensing') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">{{ $t('navbar.contacts') }}</a>
+                    <a href="/contacts" class="hover:underline">{{ $t('navbar.contacts') }}</a>
                 </li>
             </ul>
         </div>

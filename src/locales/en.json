@@ -40,6 +40,10 @@
       },
       "contacts": {
         "hero-header": "CONTACTS",
+        "subheader": "Contact details",
+        "phone": "Reach Us",
+        "email": "Write Us",
+        "address": "Join Us",
         "location": "73 Abbas Sahhat, Baku, Azerbaijan"
       },
       "contact-form": {
