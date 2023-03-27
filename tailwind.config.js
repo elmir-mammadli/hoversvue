@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  plugins: [
+    require('flowbite/plugin'),
+    require('@headlessui/vue'),
+],
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -22,9 +26,5 @@ module.exports = {
         '9xl': '96rem'
       }
     },
-  },
-  plugins: [
-    require('flowbite/plugin'),
-    require('@headlessui/vue')
-],
+  }
 }
