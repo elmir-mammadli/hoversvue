@@ -13,7 +13,7 @@
                     <a :href="isEn ? '/public/ppen.pdf' : '/public/ppaz.pdf'" class="mr-4 hover:underline md:mr-6">{{ $t('footer.pp') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-3 hover:underline md:mr-6">{{ $t('footer.licensing') }}</a>
+                    <a href="#" class="mr-4 hover:underline md:mr-6">{{ $t('footer.licensing') }}</a>
                 </li>
                 <li>
                     <a href="/contacts" class="hover:underline">{{ $t('navbar.contacts') }}</a>
