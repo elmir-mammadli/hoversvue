@@ -14,17 +14,17 @@
         <span class="
         text-hovers-black 
         font-semibold">{{ $t('about.bold-text') }}</span> {{ $t('about.perex-1') }}</p>
-        <img src="/public/images/about1.jpeg" class="h-[300px] w-[450px] rounded-md rotate-1 drop-shadow-xl" alt="">
+        <img src="/images/about1.jpeg" class="h-[300px] w-[450px] rounded-md rotate-1 drop-shadow-xl" alt="">
         </div>
         <div class="flex gap-[2rem] mt-10">
-        <img src="/public/images/about2.jpeg" class="h-[300px] w-[450px] rounded-md -rotate-1 drop-shadow-xl" alt="">
+        <img src="/images/about2.jpeg" class="h-[300px] w-[450px] rounded-md -rotate-1 drop-shadow-xl" alt="">
         <p class="max-w-lg text-justify text-hovers-gray leading-6 tracking-tight">
             {{ $t('about.perex-2') }}
         </p>
         </div>
         <div class="flex gap-[2rem] mt-10">
         <p class="max-w-lg text-justify text-hovers-gray leading-6 tracking-tight">{{ $t('about.perex-3') }}</p>
-        <img src="/public/images/about3.jpeg" class="h-[300px] w-[450px] rounded-md rotate-1 drop-shadow-xl" alt="">
+        <img src="/images/about3.jpeg" class="h-[300px] w-[450px] rounded-md rotate-1 drop-shadow-xl" alt="">
         </div>
     </div>
 </template>

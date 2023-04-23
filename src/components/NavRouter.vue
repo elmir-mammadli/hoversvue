@@ -16,7 +16,7 @@ name: "NavRouter",
     if (this.$route.path === '/about') {
       return this.$t('about.hero-header')
     } else if (this.$route.path === '/projects') {
-      return this.$t('projects.hero-header')
+      return this.$t('projectsHead.hero-header')
     } else {
       return this.$t('contacts.hero-header')}
   }
