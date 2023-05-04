@@ -8,7 +8,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseApp = initializeApp({
-    apiKey: "AIzaSyDJYYWs2qTEclHtklEcNYJytBQNEuiYahA",
+  apiKey: "AIzaSyDJYYWs2qTEclHtklEcNYJytBQNEuiYahA",
   authDomain: "hovers-group-llc.firebaseapp.com",
   projectId: "hovers-group-llc",
   storageBucket: "hovers-group-llc.appspot.com",
