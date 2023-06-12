@@ -86,7 +86,7 @@ const projects = ref([]);
 
 const fetchProjects = async () => {
   const APIkey = import.meta.env.VITE_VUE_APP_DIRECTUS_API_KEY;
-  const response = await axios.get("http://localhost:8055/items/Projects", {
+  const response = await axios.get("http://localhost:8055/iditemsdi/Projects", {
     headers: {
       'Authorization': `Bearer ${APIkey}`
     }
