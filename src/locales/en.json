@@ -35,7 +35,7 @@
       "clients": {
         "heading": "Our Clients"
       },
-      "projects": {
+      "projectsHead": {
         "hero-header": "PROJECTS"
       },
       "contacts": {
@@ -54,5 +54,112 @@
         "email": "Email",
         "message": "Message",
         "send": "Send"
+      },
+      "projects": {
+        "completed": [
+          {
+              "id": 1,
+              "name": "John",
+              "short_descr": "Its a short description of Completed Projects",
+              "long_descr": "Its a long description of Completed Projects",
+              "client": "Client 1",
+              "contractor": "Contractor 1",
+              "start_date": "2018-01-01",
+              "end_date": "2018-01-05",
+              "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+           },
+           {
+               "id": 2,
+               "name": "John",
+               "short_descr": "Its a short description of Completed Projects",
+               "long_descr": "Its a short description of Completed Projects",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            },
+            {
+               "id": 3,
+               "name": "John",
+               "short_descr": "Its a short description of Completed Projects",
+               "long_descr": "Its a short description of Completed Projects",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            }
+      ],
+      "ongoing": [
+          {
+              "id": 1,
+              "name": "Michael",
+              "short_descr": "Its a short description",
+              "long_descr": "Its a long description",
+              "client": "Client 1",
+              "contractor": "Contractor 1",
+              "start_date": "2018-01-01",
+              "end_date": "2018-01-05",
+              "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+           },
+           {
+               "id": 2,
+               "name": "Michael",
+               "short_descr": "Its a short description",
+               "long_descr": "Its a long description",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            },
+            {
+               "id": 3,
+               "name": "Michael",
+               "short_descr": "Its a short description",
+               "long_descr": "Its a long description",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            }
+      ],
+      "future": [
+          {
+              "id": 1,
+              "name": "Samuel",
+              "short_descr": "Its a short description",
+              "long_descr": "Its a long description",
+              "client": "Client 1",
+              "contractor": "Contractor 1",
+              "start_date": "2018-01-01",
+              "end_date": "2018-01-05",
+              "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+           },
+           {
+               "id": 2,
+               "name": "Samuel",
+               "short_descr": "Its a short description",
+               "long_descr": "Its a long description",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            },
+            {
+               "id": 3,
+               "name": "Samuel",
+               "short_descr": "Its a short description",
+               "long_descr": "Its a long description",
+               "client": "Client 1",
+               "contractor": "Contractor 1",
+               "start_date": "2018-01-01",
+               "end_date": "2018-01-05",
+               "card_image": "https://www.w3schools.com/w3css/img_lights.jpg"
+            }
+      ]
       }
   }

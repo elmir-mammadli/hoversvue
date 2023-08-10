@@ -2,6 +2,27 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import i18n from '../src/i18n'
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore"
+
+const firebaseApp = initializeApp({
+  apiKey: "AIzaSyDJYYWs2qTEclHtklEcNYJytBQNEuiYahA",
+  authDomain: "hovers-group-llc.firebaseapp.com",
+  projectId: "hovers-group-llc",
+  storageBucket: "hovers-group-llc.appspot.com",
+  messagingSenderId: "277396838647",
+  appId: "1:277396838647:web:87a414134b477aecb85bf2",
+  measurementId: "G-251E0E5336"
+})
+
+// Initialize Firebase
+const app = firebaseApp
+const analytics = getAnalytics(app);
+const db  = getFirestore(app);
+
+
 
 import './assets/fonts.js'
 import './assets/style.css'

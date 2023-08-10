@@ -19,7 +19,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'aboutcover': "url('./public/images/abouthero.webp')",
+        'aboutcover': "url('/images/abouthero.webp')",
       },
       maxWidth: {
         '8xl': '88rem',
